@@ -1,0 +1,11 @@
+{
+  "headline": "Willkommen auf meiner Website",
+  "about": {
+    "title": "Über uns",
+    "text": "Wir sind ein Unternehmen, das ..."
+  },
+  "images": {
+    "banner": "images/banner.jpg",
+    "about": "images/about.jpg"
+  }
+}

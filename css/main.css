@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.landing-section-bg {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.landing-section-h1 {
+  color: rgb(17, 24, 39);
+  font-family: Rufina, serif;
+  font-weight: 700;
+}
+
+.landing-section-text-body {
+  color: rgb(17, 24, 39);
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+}
+
+#landing-section-cta-button {
+  background: rgb(41, 233, 236);
+  border-radius: 8px;
+  color: rgb(17, 24, 39);
+  border: 2px solid rgb(41, 233, 236);
+}
