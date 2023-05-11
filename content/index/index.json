@@ -103,14 +103,14 @@
     "expertiseText": "Wir legen größten Wert darauf, dass unsere Planerinnen und Planer über fundiertes Fachwissen und aktuelle Kenntnisse verfügen. Deshalb sind alle unsere Planungen entweder von einer Architektin oder einer zertifizierten Arbeitsplatzexpertin (von der renommierten Mensch und Büro Akademie) durchgeführt. Auf diese Weise stellen wir sicher, dass wir stets den gesetzlichen Vorschriften entsprechen und neueste Erkenntnisse in unsere Einrichtungskonzepte einfließen lassen.",
     "howTitle": "Wie können Sie von unserem Know-How profitieren?",
     "howText": "Es ist ganz einfach: Vereinbaren Sie ein erstes, kostenloses und unverbindliches Beratungsgespräch mit uns. In diesem Gespräch erhalten Sie wertvolle Tipps und Anregungen, die Ihnen garantiert weiterhelfen.",
-    "contactTitle": "Kontaktieren Sie uns:",
+    "contactTitle": "Kontaktieren Sie uns gerne.",
     "phoneText": "Rufen Sie uns an unter",
     "phoneNumber": "0351/4468840",
     "phoneTime": "(Mo.-Do. 9-16 Uhr, Fr. 9-14 Uhr)",
     "closingText": "Wir freuen uns darauf, Sie und Ihr Unternehmen kennenzulernen und gemeinsam mit Ihnen die optimale Einrichtungslösung für Ihren Bedarf zu finden."
   },
   "bernhard": {
-    "backgroundColor": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(237, 237, 237)",
     "image": {
       "src": "img/office.webp",
       "alt": "Bernhard's Profilbild"

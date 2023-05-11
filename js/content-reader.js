@@ -46,19 +46,6 @@ fetch('content/index/index.json')
       galleryGrid.appendChild(imageDiv);
     });
 
-
-    // Replace the content with the data from the JSON file
-    document.querySelector(".rich-text-block h3").textContent = data.aboutSection;
-
-    // Add the remaining content using the data from the JSON file
-    const richTextBlock = document.querySelector(".rich-text-block");
-    const contentItems = [
-      "sectionSubtitle", "credoTitle", "credoText",
-      "whoTitle", "whoText", "differenceTitle", "differenceText",
-      "expertiseTitle", "expertiseText", "howTitle", "howText",
-      "contactTitle", "phoneText", "phoneNumber", "phoneTime", "closingText"
-    ];
-
     const aboutSection = data.aboutSection;
     document.querySelector('#section-title').innerText = aboutSection.sectionTitle;
     document.querySelector('#section-subtitle').innerText = aboutSection.sectionSubtitle;

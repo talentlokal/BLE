@@ -1,5 +1,5 @@
 <html
-  style="--body-fontFamily: 'PT Serif', serif; --body-fontWeight: 400; --head-fontFamily: 'Rufina', serif; --head-fontWeight: 700;">
+  style="--head-fontWeight: 700;">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -25,7 +25,7 @@
     box-shadow: 0 0 10px #8C8CF4;
   }</style>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true">
-  <link href="https://fonts.googleapis.com/css2?family=Rufina:wght@700&amp;family=PT+Serif:wght@400&amp;display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&amp;family=PT+Serif:wght@400&amp;display=swap"
         rel="stylesheet" data-optimized-fonts="true">
   <link href="https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
@@ -35,11 +35,12 @@
   <link rel="preload" href="/_next/static/css/30fd6dae99bf48e4.css" as="style">
   <link rel="stylesheet" href="/_next/static/css/30fd6dae99bf48e4.css">
   <noscript data-n-css=""></noscript>
-  <script defer="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
   <script src="/_next/static/chunks/pages/_app-de0b152305ff5e07.js" defer=""></script>
   <script src="/js/combined-scripts.js" defer=""></script>
   <script src="/_next/static/chunks/pages/5b4be62b562b1b67.js" defer=""></script>
 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Rufina:wght@700&amp;family=PT+Serif:wght@400&amp;display=swap">
 </head>
@@ -47,7 +48,7 @@
 
 <body>
 <div id="__next" data-reactroot="">
-  <div class="min-h-full w-full flex flex-col smooth-scroll" style="font-family:'PT Serif', serif;font-weight:400">
+  <div class="min-h-full w-full flex flex-col smooth-scroll" style="font-weight:400">
 
 
     <header class="" style="background-color: rgb(255, 255, 255); color: rgb(17, 24, 39);">
@@ -177,21 +178,38 @@
         <div class="container mx-auto py-12 lg:py-14 xl:py-20">
           <div class="rich-text-block max-w-5xl text-center mx-auto" id="about-content">
             <h3 id="section-title"></h3>
-            <p id="section-subtitle"></p>
-            <p id="credo-title"></p>
-            <p id="credo-text"></p>
-            <p id="who-title"></p>
-            <p id="who-text"></p>
-            <p id="difference-title"></p>
-            <p id="difference-text"></p>
-            <p id="expertise-title"></p>
-            <p id="expertise-text"></p>
-            <p id="how-title"></p>
-            <p id="how-text"></p>
-            <p id="contact-title"></p>
-            <p id="phone-text"></p>
-            <p class="large" id="phone-number"></p>
-            <p id="phone-time"></p>
+
+            <div class="cards">
+              <div class="card">
+                <span class="material-icons">groups</span>
+                <p id="section-subtitle"></p>
+                <p id="credo-title"></p>
+                <p id="credo-text"></p>
+                <p id="expertise-title"></p>
+                <p id="expertise-text"></p>
+              </div>
+
+              <div class="card">
+              <span class="material-icons">workspace_premium</span>
+                <p id="who-title"></p>
+                <p id="who-text"></p>
+                <p id="difference-title"></p>
+                <p id="difference-text"></p>
+              </div>
+
+              <div class="card">
+              <span class="material-icons">
+              call
+            </span>
+                <p id="how-title"></p>
+                <p id="how-text"></p>
+                <p id="contact-title"></p>
+                <p id="phone-text"></p>
+                <p class="large" id="phone-number"></p>
+                <p id="phone-time"></p>
+              </div>
+            </div>
+
             <p id="closing-text"></p>
           </div>
         </div>
@@ -206,7 +224,7 @@
                 <img id="bernhard-image" alt="" src="" sizes="100vw">
               </div>
               <h3 id="bernhard-heading" class="text-xl lg:text-2xl xl:text-h3 !font-medium"></h3>
-              <p id="bernhard-subheading" class="text-sm lg:text-body xl:text-2xl"></p>
+              <p id="bernhard-subheading" class="text-sm lg:text-body"></p>
             </div>
           </div>
         </div>
@@ -216,7 +234,7 @@
       <section class="flex-shrink-0" id="contact">
         <div class="container mx-auto py-12 lg:py-14 xl:py-20">
           <div class="flex flex-col w-full gap-10 lg:gap-20 lg:flex-row">
-            <div class="w-full lg:w-1/2 lg:mt-10" id="contact-text">
+            <div class="w-full lg:w-1/2" id="contact-text">
               <h3></h3>
               <p></p>
               <p></p>
@@ -236,7 +254,8 @@
                     <label class="mb-1 text-label text-current" id="contact-subject">Anliegen</label>
                     <div class="w-full">
                       <div class="relative">
-                        <button class="border-none !shadow-none !placeholder-current relative w-full border rounded-md shadow-sm pl-3 pr-9 py-2.5 text-left cursor-pointer focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 bg-white"
+                        <button
+                          class="border-none !shadow-none !placeholder-current relative w-full border rounded-md shadow-sm pl-3 pr-9 py-2.5 text-left cursor-pointer focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 bg-white"
                           id="headlessui-combobox-button-2" type="button" tabindex="-1" aria-haspopup="listbox"
                           aria-expanded="false" data-headlessui-state=""><span
                           class="block truncate">-</span><span
@@ -270,10 +289,10 @@
 
       <!--Map Section-->
       <section>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.611018663109!2d13.771425212569593!3d51.0602698431507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4709cfdb23241ec1%3A0x2eba3a2786fa6a32!2sBernhard%20Loth%20Einrichtungen!5e0!3m2!1sde!2sde!4v1683826388810!5m2!1sde!2sde"
-          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.611018663109!2d13.771425212569593!3d51.0602698431507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4709cfdb23241ec1%3A0x2eba3a2786fa6a32!2sBernhard%20Loth%20Einrichtungen!5e0!3m2!1sde!2sde!4v1683826388810!5m2!1sde!2sde"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
       </section>
     </div>
 
